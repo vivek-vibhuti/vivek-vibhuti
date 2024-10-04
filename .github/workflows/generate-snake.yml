@@ -1,0 +1,24 @@
+name: Generate Snake Animation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: vivek-vibhuti  # Your GitHub username
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Upload Snake
+        uses: actions/upload-artifact@v2
+        with:
+          name: snakes
+          path: dist/
