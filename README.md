@@ -1,9 +1,9 @@
-<div align="center">
-  <h1 style="font-family: 'Verdana', sans-serif; color: #FF6347; text-shadow: 3px 3px #FF4500;">
-    🌟 Welcome to My GitHub Space!
-  </h1>
-  <img src="https://readme-typing-svg.demolab.com/?lines=Hello,+I'm+Vivek+Vibhuti;A+Passionate+Developer;Exploring+MERN+Stack+and+Java" alt="Typing SVG" style="border: 2px solid #FF6347; border-radius: 10px;">
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="1920">
+<br>
+
+ 
+  <img src="https://readme-typing-svg.demolab.com/?lines=Hello,+I'm+Vivek+Vibhuti;A+Passionate+Developer;Exploring+MERN+Stack+and+Java" alt="Typing SVG" style="border: 2px solid #FF6347; border-radius: 10px; height: 500px ; margin-left:100px;">
+
 
 <div align="right">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true" alt="Visitor Badge" style="border: 2px solid #FF6347; border-radius: 10px;">
