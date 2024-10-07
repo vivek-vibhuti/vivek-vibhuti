@@ -1,0 +1,32 @@
+name: Generate Snake Animation
+
+# This workflow is triggered by a schedule (at 5:00 AM UTC every day) and manually
+on:
+  schedule:
+    # Runs at 5:00 AM every day (UTC time)
+    - cron: "0 5 * * *"
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest  # This is the virtual machine that the job will run on
+
+    steps:
+      # Step 1: Check out the repository so we can work with the files
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      # Step 2: Generate the snake SVG files (light and dark)
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2.0.0
+        with:
+          github_user_name: vivek-vibhuti  # Replace with your GitHub username
+          svg_out_path: dist/github-snake.svg  # The output SVG path (light version)
+
+      # Step 3: Commit and push the generated SVGs to the repository
+      - name: Commit and Push the generated Snake Animation
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Generated snake animation"
+          branch: main  # Make sure this is your main branch
+          file_pattern: dist/*  # Only commit the files in the dist/ directory
