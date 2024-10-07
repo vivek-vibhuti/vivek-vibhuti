@@ -75,7 +75,6 @@
 </div>
 ---
 
-### 🐍 **Contribution Snake**
 <div align="center">
   <h2 style="color: #FF4500; text-shadow: 2px 2px #FF6347; font-family: 'Times New Roman', serif;">
     My GitHub Contributions
@@ -86,6 +85,7 @@
     <img alt="github-snake" src="dist/github-snake.svg" style="border-radius: 10px;" />
   </picture>
 </div>
+
 
 ---
 
