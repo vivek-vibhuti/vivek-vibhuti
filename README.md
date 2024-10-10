@@ -2,7 +2,11 @@
 <br>
 
  
-  <img src="https://readme-typing-svg.demolab.com/?lines=Hello,+I'm+Vivek+Vibhuti;A+Passionate+Developer;Exploring+MERN+Stack+and+Java" alt="Typing SVG" style="border: 2px solid #FF6347; border-radius: 10px; height: 500px ; margin-left:100px;">
+  <a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Afacad+flux&size=48&pause=1000&center=true&width=1920&height=100&lines=HELLO%2C+I+am+Vivek+Vibhuti;I'm+a+Full+Stack+Developer;I'm+a+Graphic+Designer;I'm+a+Student;A+Passionate+Developer" alt="Typing SVG" />
+</a>
+
+
 
 
 <div align="right">
@@ -48,44 +52,11 @@
 ---
 
 ### 📈 **GitHub Stats**
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  
-  <!-- GitHub Stats Left -->
-  <div align="left">
-    <picture>
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=vivek-vibhuti&show_icons=true&theme=dark"
-        media="(prefers-color-scheme: dark)"
-      />
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=vivek-vibhuti&show_icons=true"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      />
-      <img src="https://github-readme-stats.vercel.app/api?username=vivek-vibhuti&show_icons=true" alt="GitHub Stats" />
-    </picture>
-  </div>
-
-  <!-- GitHub Streak Stats Right -->
-  <div align="right">
-    <a href="https://git.io/streak-stats">
-      <img src="https://streak-stats.demolab.com/?user=vivek-vibhuti" alt="GitHub Streak" />
-    </a>
-  </div>
-
-</div>
----
-
 <div align="center">
-  <h2 style="color: #FF4500; text-shadow: 2px 2px #FF6347; font-family: 'Times New Roman', serif;">
-    My GitHub Contributions
-  </h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-    <img alt="github-snake" src="dist/github-snake.svg" style="border-radius: 10px;" />
-  </picture>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=vivek-vibhuti&theme=youtube-dark&border_radius=4.7" alt="GitHub Streak" />
+  </a>
 </div>
-
 
 ---
 
