@@ -14,7 +14,7 @@
 </div>
 
 ---
-
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" style="visibility:visible;max-width:100%;">
 ### 📫 **Connect with Me**
 <div align="center">
   <h2 style="color: #4682B4; text-shadow: 1px 1px #B0C4DE; font-family: 'Arial', sans-serif;">
