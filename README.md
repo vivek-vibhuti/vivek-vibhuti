@@ -1,4 +1,5 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Animated-GIFs-davidope-11.gif" width="100%" />
+[![Binary System Coalescence](https://upload.wikimedia.org/wikipedia/commons/3/3b/Binary_system_coalescence.gif)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Binary_system_coalescence.gif)
+
 
 <br>
 
