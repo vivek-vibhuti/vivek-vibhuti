@@ -1,5 +1,4 @@
-<video src="[https://www.pexels.com/video/a-computer-monitor-flashing-digital-information-2887463](https://commons.wikimedia.org/wiki/File:Animated-GIFs-davidope-11.gif#/media/File:Animated-GIFs-davidope-11.gif)/" loop muted autoplay playsinline></video>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Animated-GIFs-davidope-11.gif" width="100%" />
 
 <br>
 
