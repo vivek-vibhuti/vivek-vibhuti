@@ -1,4 +1,3 @@
-[![Binary System Coalescence](https://upload.wikimedia.org/wikipedia/commons/3/3b/Binary_system_coalescence.gif)](https://upload.wikimedia.org/wikipedia/commons/3/3b/Binary_system_coalescence.gif)
 
 
 <br>
