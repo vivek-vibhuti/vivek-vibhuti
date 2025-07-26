@@ -15,8 +15,40 @@
 </div>
 
 ---
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" style="visibility:visible;max-width:100%;">
-### 📫 **Connect with Me**
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: YOUR_GITHUB_USERNAME
+          outputs: |
+            ./github-contribution-grid-snake.svg
+        env:
+          COLOR_SNAKE: "#00ffcc"
+          COLOR_DOTS: "#444444, #333333, #222222, #111111, #000000"
+          BACKGROUND: "#000000"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: snake-animation
+          path: ./github-contribution-grid-snake.svg
+
+      - name: Push the snake
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add github-contribution-grid-snake.svg
+          git commit -m "Generate dark snake animation"
+          git push
+
 <div align="center">
   <h2 style="color: #4682B4; text-shadow: 1px 1px #B0C4DE; font-family: 'Arial', sans-serif;">
     Let’s Get in Touch!
