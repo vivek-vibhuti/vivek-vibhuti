@@ -15,17 +15,17 @@
 </div>
 
 
-<!-- Video Section -->
+
 ## 🎬 Project Demo
 
 <div align="center">
 
-<video width="800" controls>
-  <source src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/workflows/Screen%20Recording%202025-09-17%20200648.mp4" type="video/mp4">
-</video>
+<a href="https://github.com/vivek-vibhuti/vivek-vibhuti/blob/main/workflows/Screen%20Recording%202025-09-17%20200648.mp4">
+<img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-000?style=for-the-badge&logo=github"/>
+
+</a>
 
 </div>
-
 <!-- Snake Contribution Graph -->
 <div align="center">
   <img alt="github contribution grid snake animation" 
