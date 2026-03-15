@@ -20,13 +20,11 @@
 
 <div align="center">
 
-<video src="https://user-images.githubusercontent.com/YOUR_VIDEO_LINK/demo.mp4" controls width="700"></video>
+<video width="800" controls>
+  <source src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/workflows/Screen%20Recording%202025-09-17%20200648.mp4" type="video/mp4">
+</video>
 
 </div>
-
-*(Upload a demo video to GitHub and replace the link above)*
-
----
 
 <!-- Snake Contribution Graph -->
 <div align="center">
