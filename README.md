@@ -3,6 +3,7 @@
 
 ---
 <!-- Animated Header -->
+
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00F7FF&center=true&width=600&lines=Hi+I'm+Vivek+Vibhuti;Full+Stack+Developer;AI+%7C+ML+Explorer;Building+Cool+Projects+🚀" />
 </div>
