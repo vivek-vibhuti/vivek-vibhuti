@@ -192,14 +192,6 @@ flowchart LR
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vivek-vibhuti&theme=tokyonight" alt="Profile Summary" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repositories?username=vivek-vibhuti&theme=tokyonight&exclude=vivek-vibhuti" alt="Repo Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vivek-vibhuti&theme=tokyonight" alt="Top Languages" />
-</p>
-
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════
@@ -208,7 +200,7 @@ flowchart LR
 ### 🐍 **Contribution Snake**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/output/github-contribution-grid-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:12px; background:#0d1117; border:1px solid #30363d;" />
+  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/dist/github-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:12px; background:#0d1117; border:1px solid #30363d;" />
 </p>
 
 ---
