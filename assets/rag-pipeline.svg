@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <linearGradient id="rag-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF"/>
+      <stop offset="50%" stop-color="#D414FE"/>
+      <stop offset="100%" stop-color="#00E77F"/>
+    </linearGradient>
+    <linearGradient id="rag-magenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D414FE"/>
+      <stop offset="100%" stop-color="#FB0094"/>
+    </linearGradient>
+    <linearGradient id="rag-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E77F"/>
+      <stop offset="100%" stop-color="#00FFB7"/>
+    </linearGradient>
+    <filter id="rag-glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="rag-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="url(#rag-cyan)"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117" opacity="0.02"/>
+  
+  <!-- Title -->
+  <text x="500" y="20" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="12" fill="#00F7FF" font-weight="bold">RAG PIPELINE — HYBRID RETRIEVAL → RERANK → GENERATE</text>
+  
+  <!-- Step 1: Document Ingestion -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="180" height="80" rx="12" fill="#161b22" stroke="#00F7FF" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="10" fill="#00F7FF" font-weight="bold">📄 INGESTION</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">PDF • DOCX • TXT</text>
+    <text x="90" y="54" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">URLs • Code • MD</text>
+    <text x="90" y="70" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#00E77F">AST-Aware Chunking</text>
+    <text x="90" y="82" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#00E77F">Overlap: 15%</text>
+    
+    <!-- Animated particles entering -->
+    <circle cx="90" cy="10" r="3" fill="#00F7FF" opacity="0.8">
+      <animate attributeName="cy" values="10;40;70;10" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="15" r="2" fill="#D414FE" opacity="0.6">
+      <animate attributeName="cy" values="15;45;75;15" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="110" cy="5" r="2" fill="#00E77F" opacity="0.6">
+      <animate attributeName="cy" values="5;35;65;5" dur="4s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M230,90 L280,90" stroke="url(#rag-cyan)" stroke-width="2" fill="none" marker-end="url(#rag-arrow)" filter="url(#rag-glow)">
+    <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <text x="255" y="85" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00F7FF">CHUNKS</text>
+  
+  <!-- Step 2: Embedding -->
+  <g transform="translate(300, 50)">
+    <rect x="0" y="0" width="160" height="80" rx="12" fill="#161b22" stroke="#D414FE" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="80" y="25" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="10" fill="#D414FE" font-weight="bold">🔢 EMBEDDING</text>
+    <text x="80" y="42" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">text-embedding-3-large</text>
+    <text x="80" y="54" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">BGE-M3 • E5-Large</text>
+    <text x="80" y="68" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#FB0094">Dim: 1024/3072</text>
+    <text x="80" y="80" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#FB0094">Batch: 100</text>
+    
+    <!-- Neural net animation -->
+    <g stroke="#D414FE" stroke-width="1.5" opacity="0.5">
+      <line x1="20" y1="20" x2="60" y2="15">
+        <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+      </line>
+      <line x1="20" y1="20" x2="60" y2="25"/>
+      <line x1="20" y1="20" x2="60" y2="35"/>
+      <line x1="100" y1="20" x2="140" y2="15">
+        <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+      </line>
+      <line x1="100" y1="20" x2="140" y2="25"/>
+      <line x1="100" y1="20" x2="140" y2="35"/>
+    </g>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M460,90 L510,90" stroke="url(#rag-cyan)" stroke-width="2" fill="none" marker-end="url(#rag-arrow)" filter="url(#rag-glow)">
+    <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+  </path>
+  <text x="485" y="85" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00F7FF">VECTORS</text>
+  
+  <!-- Step 3: Vector Store (Dual Index) -->
+  <g transform="translate(530, 30)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#161b22" stroke="#00E77F" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="10" fill="#00E77F" font-weight="bold">🗄️ VECTOR STORE</text>
+    
+    <!-- Dense Index -->
+    <rect x="10" y="35" width="70" height="80" rx="8" fill="#0d1117" stroke="#00E77F" stroke-width="1.5"/>
+    <text x="45" y="50" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00E77F" font-weight="bold">DENSE</text>
+    <text x="45" y="62" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">HNSW</text>
+    <text x="45" y="72" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">Milvus</text>
+    <text x="45" y="82" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">Pinecone</text>
+    <text x="45" y="92" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">Weaviate</text>
+    <text x="45" y="102" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#00FFB7">Top-K: 50</text>
+    
+    <!-- Sparse Index -->
+    <rect x="100" y="35" width="70" height="80" rx="8" fill="#0d1117" stroke="#FFA116" stroke-width="1.5"/>
+    <text x="135" y="50" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#FFA116" font-weight="bold">SPARSE</text>
+    <text x="135" y="62" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">BM25</text>
+    <text x="135" y="72" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">SPLADE</text>
+    <text x="135" y="82" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">Opensearch</text>
+    <text x="135" y="92" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">Elastic</text>
+    <text x="135" y="102" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#FFA116">Top-K: 50</text>
+    
+    <!-- Reciprocal Rank Fusion animation -->
+    <g transform="translate(90, 75)">
+      <circle r="15" fill="none" stroke="url(#rag-cyan)" stroke-width="2" stroke-dasharray="8,4" filter="url(#rag-glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="4" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00F7FF" font-weight="bold">RRF</text>
+      <text x="0" y="14" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="6" fill="#c9d1d9">FUSION</text>
+    </g>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M710,90 L760,90" stroke="url(#rag-cyan)" stroke-width="2" fill="none" marker-end="url(#rag-arrow)" filter="url(#rag-glow)">
+    <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+  </path>
+  <text x="735" y="85" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00F7FF">CANDIDATES</text>
+  
+  <!-- Step 4: Reranking -->
+  <g transform="translate(780, 50)">
+    <rect x="0" y="0" width="160" height="80" rx="12" fill="#161b22" stroke="#FB0094" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="80" y="25" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="10" fill="#FB0094" font-weight="bold">🎯 RERANK</text>
+    <text x="80" y="42" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">Cross-Encoder</text>
+    <text x="80" y="54" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">BGE-Reranker-v2</text>
+    <text x="80" y="66" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">Cohere Rerank 3.5</text>
+    <text x="80" y="78" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#FB0094">Top-10 → Top-5</text>
+    
+    <!-- Scoring animation -->
+    <g>
+      <rect x="20" y="40" width="120" height="6" rx="3" fill="#0d1117" stroke="#FB0094" stroke-width="1"/>
+      <rect x="20" y="40" width="0" height="6" rx="3" fill="url(#rag-magenta)">
+        <animate attributeName="width" values="0;120;0" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="80" y="52" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#FB0094" font-weight="bold">SCORING...</text>
+    </g>
+  </g>
+  
+  <!-- Arrow 4 -->
+  <path d="M940,90 L990,90" stroke="url(#rag-cyan)" stroke-width="2" fill="none" marker-end="url(#rag-arrow)" filter="url(#rag-glow)">
+    <animate attributeName="stroke-dashoffset" values="50;0" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+  </path>
+  <text x="965" y="85" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#00F7FF">CONTEXT</text>
+  
+  <!-- Step 5: Generator -->
+  <g transform="translate(990, 30)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#161b22" stroke="#00F7FF" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="10" fill="#00F7FF" font-weight="bold">🤖 GENERATOR</text>
+    
+    <!-- LLM Options -->
+    <text x="90" y="45" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">GPT-4o • Claude-3.5</text>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">Llama-3.1-70B</text>
+    <text x="90" y="65" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#c9d1d9">Qwen-2.5-72B</text>
+    <text x="90" y="75" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#00E77F">Streaming: ON</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#00E77F">Citations: ON</text>
+    <text x="90" y="95" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#D414FE">Temp: 0.3</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="8" fill="#D414FE">Max: 4096</text>
+    
+    <!-- Token streaming animation -->
+    <rect x="30" y="110" width="120" height="4" rx="2" fill="#0d1117" stroke="#00F7FF" stroke-width="1"/>
+    <rect x="30" y="110" width="0" height="4" rx="2" fill="url(#rag-cyan)">
+      <animate attributeName="width" values="0;120;0" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Feedback Loop Arrow (bottom) -->
+  <path d="M1080,150 Q900,200 500,200 Q100,200 80,150" stroke="url(#rag-emerald)" stroke-width="2" fill="none" stroke-dasharray="10,5" marker-end="url(#rag-arrow)" opacity="0.4" filter="url(#rag-glow)">
+    <animate attributeName="stroke-dashoffset" values="200;0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <text x="500" y="220" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="9" fill="#00E77F">FEEDBACK LOOP — User Signals → Eval → Retrain</text>
+  
+  <!-- Guardrails box -->
+  <g transform="translate(400, 150)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#161b22" stroke="#FF6B35" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="100" y="18" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="9" fill="#FF6B35" font-weight="bold">🛡️ GUARDRAILS</text>
+    <text x="100" y="32" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#c9d1d9">PII Detection • Prompt Injection</text>
+    <text x="100" y="42" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#c9d1d9">Hallucination Check • Citation Verify</text>
+    <text x="100" y="52" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#FFA116">Latency Budget: <500ms p99</text>
+    
+    <!-- Shield pulse -->
+    <circle cx="180" cy="15" r="6" fill="none" stroke="#FF6B35" stroke-width="2" filter="url(#rag-glow)">
+      <animate attributeName="r" values="6;12;6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Evaluation box -->
+  <g transform="translate(620, 150)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#161b22" stroke="#FFA116" stroke-width="2" filter="url(#rag-glow)" opacity="0.9"/>
+    <text x="100" y="18" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="9" fill="#FFA116" font-weight="bold">📊 EVALUATION</text>
+    <text x="100" y="32" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#c9d1d9">RAGAS • Faithfulness • Answer Rel.</text>
+    <text x="100" y="42" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#c9d1d9">Context Precision • Context Recall</text>
+    <text x="100" y="52" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="7" fill="#FFA116">Auto-Eval Pipeline: ON</text>
+  </g>
+</svg>
