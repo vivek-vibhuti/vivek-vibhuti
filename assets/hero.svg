@@ -1,0 +1,391 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 580" width="1200" height="580">
+  <defs>
+    <!-- Main gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080C"/>
+      <stop offset="30%" stop-color="#0A0F1A"/>
+      <stop offset="60%" stop-color="#0D1420"/>
+      <stop offset="100%" stop-color="#05080C"/>
+    </linearGradient>
+    
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#D414FE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00E77F" stop-opacity="0.9"/>
+    </linearGradient>
+    
+    <linearGradient id="magenta-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D414FE" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FB0094" stop-opacity="0.6"/>
+    </linearGradient>
+    
+    <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E77F" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00FFB7" stop-opacity="0.6"/>
+    </linearGradient>
+    
+    <radialGradient id="center-glow" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.12"/>
+      <stop offset="40%" stop-color="#D414FE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    
+    <radialGradient id="silhouette-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#D414FE" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="neon-glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strong-glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="text-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="badge-glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid-pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#00F7FF" stroke-width="0.5" opacity="0.12"/>
+      <path d="M 0 0 L 60 0 0 60" fill="none" stroke="#D414FE" stroke-width="0.3" opacity="0.06"/>
+    </pattern>
+    
+    <!-- Matrix rain gradient -->
+    <linearGradient id="rain-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00F7FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#D414FE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00E77F" stop-opacity="0.4"/>
+    </linearGradient>
+    
+    <!-- Visitor badge animation -->
+    <animate id="badge-pulse" attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    
+    <!-- Typing cursor blink -->
+    <animate id="cursor-blink" attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" repeatCount="indefinite"/>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="580" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="580" fill="url(#grid-pattern)"/>
+  <ellipse cx="600" cy="220" rx="550" ry="280" fill="url(#center-glow)"/>
+  
+  <!-- Corner ambient orbs -->
+  <g opacity="0.25">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#00F7FF" stroke-width="1.5">
+      <animate attributeName="r" values="70;110;70" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="100" r="70" fill="none" stroke="#D414FE" stroke-width="1.5">
+      <animate attributeName="r" values="70;110;70" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="530" r="70" fill="none" stroke="#00E77F" stroke-width="1.5">
+      <animate attributeName="r" values="70;110;70" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="530" r="70" fill="none" stroke="#FB0094" stroke-width="1.5">
+      <animate attributeName="r" values="70;110;70" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Floating particles -->
+  <g fill="#00F7FF" opacity="0.5">
+    <circle cx="150" cy="150" r="1.5">
+      <animate attributeName="cy" values="150;100;150" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="250" r="1">
+      <animate attributeName="cy" values="250;200;250" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.05;0.4" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="480" r="1.2">
+      <animate attributeName="cx" values="300;350;300" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="80" r="1.5">
+      <animate attributeName="cy" values="80;130;80" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="320" r="1.3">
+      <animate attributeName="cx" values="200;250;200" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.15;0.4" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="420" r="1">
+      <animate attributeName="cx" values="950;900;950" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g fill="#D414FE" opacity="0.45">
+    <circle cx="400" cy="180" r="1">
+      <animate attributeName="cy" values="180;130;180" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0.08;0.45" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="220" r="1.2">
+      <animate attributeName="cx" values="800;850;800" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="50" r="1">
+      <animate attributeName="cy" values="50;100;50" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.08;0.3" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g fill="#00E77F" opacity="0.35">
+    <circle cx="250" cy="200" r="1">
+      <animate attributeName="cy" values="200;150;200" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0.08;0.35" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="180" r="1.3">
+      <animate attributeName="cx" values="750;700;750" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.08;0.3" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- ============================================================
+       LANA SILHOUETTE FIGURE (Right side, cyberpunk aesthetic)
+       ============================================================ -->
+  <g transform="translate(940, 150)" filter="url(#neon-glow)">
+    <!-- Head/helmet -->
+    <ellipse cx="0" cy="0" rx="38" ry="45" fill="#0A0F1A" stroke="#00F7FF" stroke-width="1.8" opacity="0.95"/>
+    <!-- Hair/helmet top -->
+    <path d="M-38,-35 Q0,-60 38,-35" fill="none" stroke="#00F7FF" stroke-width="2.5" opacity="0.7" filter="url(#neon-glow)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <!-- Visor -->
+    <line x1="-28" y1="-8" x2="28" y2="-8" stroke="#00F7FF" stroke-width="2" opacity="0.95" filter="url(#neon-glow)">
+      <animate attributeName="opacity" values="0.95;0.4;0.95" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <!-- Visor glow line -->
+    <line x1="-25" y1="-10" x2="25" y2="-10" stroke="#00F7FF" stroke-width="1" opacity="0.5" filter="url(#strong-glow)">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <!-- Neck -->
+    <rect x="-14" y="14" width="28" height="22" rx="5" fill="#0A0F1A" stroke="#D414FE" stroke-width="1.2" opacity="0.85"/>
+    <!-- Shoulders -->
+    <ellipse cx="0" cy="40" rx="60" ry="20" fill="#0A0F1A" stroke="#00F7FF" stroke-width="1.8" opacity="0.75"/>
+    <!-- Shoulder circuit lines -->
+    <g stroke="#00F7FF" stroke-width="1" opacity="0.5" filter="url(#neon-glow)">
+      <line x1="-50" y1="35" x2="-20" y2="35">
+        <animate attributeName="stroke-dashoffset" values="30;0" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="20" y1="35" x2="50" y2="35">
+        <animate attributeName="stroke-dashoffset" values="30;0" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+      </line>
+      <!-- Vertical connectors -->
+      <line x1="-35" y1="25" x2="-35" y2="40" stroke="#D414FE" stroke-width="0.8" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+      </line>
+      <line x1="35" y1="25" x2="35" y2="40" stroke="#D414FE" stroke-width="0.8" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+      </line>
+    </g>
+    <!-- Chest plate glow -->
+    <ellipse cx="0" cy="65" rx="45" ry="18" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" opacity="0.4" filter="url(#neon-glow)">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <!-- Left ambient flow lines -->
+  <g stroke="url(#cyan-glow)" stroke-width="1.5" opacity="0.35" filter="url(#neon-glow)" fill="none">
+    <path d="M80,160 Q220,90 400,160 Q580,230 720,160">
+      <animate attributeName="stroke-dashoffset" values="500;0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80,320 Q220,260 400,320 Q580,380 720,320" stroke="url(#magenta-glow)">
+      <animate attributeName="stroke-dashoffset" values="500;0" dur="7s" repeatCount="indefinite" begin="2.5s"/>
+    </path>
+    <path d="M80,450 Q220,400 400,450 Q580,500 720,450" stroke="url(#emerald-glow)">
+      <animate attributeName="stroke-dashoffset" values="500;0" dur="7s" repeatCount="indefinite" begin="5s"/>
+    </path>
+  </g>
+  
+  <!-- ============================================================
+       MAIN TYPING ANIMATION - Centered over upper portion
+       ============================================================ -->
+  <g font-family="Source Code Pro, Consolas, 'Courier New', monospace" text-anchor="middle" filter="url(#text-glow)">
+    <!-- Typing line 1: I'M VIVEK VIBHUTI -->
+    <text x="420" y="200" font-size="32" font-weight="bold" fill="url(#cyan-glow)">
+      <tspan id="type1">I'M VIVEK VIBHUTI</tspan>
+      <animate attributeName="opacity" values="0;1;1;1;1;0;0" dur="10s" repeatCount="indefinite" begin="0s"/>
+    </text>
+    
+    <!-- Typing line 2: PRINCIPAL AI ENGINEER -->
+    <text x="420" y="245" font-size="24" fill="#00F7FF" opacity="0.98">
+      <tspan>PRINCIPAL AI ENGINEER</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;1;1;0;0" dur="10s" repeatCount="indefinite" begin="0s"/>
+    </text>
+    
+    <!-- Typing line 3: ML ARCHITECT | AGENTIC SYSTEMS -->
+    <text x="420" y="282" font-size="20" fill="#D414FE" opacity="0.95">
+      <tspan>ML ARCHITECT | AGENTIC SYSTEMS</tspan>
+      <animate attributeName="opacity" values="0;0;0;1;1;1;1;0;0" dur="10s" repeatCount="indefinite" begin="0s"/>
+    </text>
+    
+    <!-- Typing line 4: PRODUCTION AI AT SCALE -->
+    <text x="420" y="315" font-size="18" fill="#00E77F" opacity="0.9">
+      <tspan>PRODUCTION AI AT SCALE</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;1;1;0" dur="10s" repeatCount="indefinite" begin="0s"/>
+    </text>
+  </g>
+  
+  <!-- Typing cursor (blinking block) -->
+  <rect x="590" y="175" width="4" height="36" fill="#00F7FF" filter="url(#neon-glow)">
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1;0" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="590;590;620;620;650;650;680;680" dur="10s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  
+  <!-- ============================================================
+       VISITOR BADGE - Top right on banner area
+       ============================================================ -->
+  <g transform="translate(1060, 20)">
+    <!-- Badge background -->
+    <rect x="0" y="0" width="120" height="36" rx="8" fill="#0D1117" fill-opacity="0.95" stroke="#00F7FF" stroke-width="2" filter="url(#badge-glow)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Badge glow ring -->
+    <rect x="2" y="2" width="116" height="32" rx="6" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" filter="url(#strong-glow)" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Visitor text -->
+    <text x="60" y="24" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="11" font-weight="bold" fill="#00F7FF">
+      VISITORS
+    </text>
+    <text x="60" y="38" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="14" font-weight="bold" fill="#00F7FF">
+      <tspan>1,234</tspan>
+      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- ============================================================
+       DIVIDER LINE between hero and matrix rain
+       ============================================================ -->
+  <line x1="60" y1="360" x2="1140" y2="360" stroke="url(#cyan-glow)" stroke-width="1.5" opacity="0.5" filter="url(#neon-glow)">
+    <animate attributeName="stroke-dashoffset" values="1080;0" dur="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Subtle divider dots -->
+  <g fill="#00F7FF" opacity="0.6">
+    <circle cx="600" cy="360" r="3">
+      <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="360" r="2">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="620" cy="360" r="2">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+  
+  <!-- ============================================================
+       MATRIX RAIN - Bottom section (connected edge-to-edge)
+       ============================================================ -->
+  <g clip-path="url(#rain-clip)">
+    <defs>
+      <clipPath id="rain-clip">
+        <rect x="0" y="370" width="1200" height="210"/>
+      </clipPath>
+    </defs>
+    
+    <!-- Matrix columns - Green -->
+    <g font-family="Source Code Pro, Consolas, monospace" font-size="13" fill="url(#rain-gradient)">
+      <text x="50" y="370"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="130" y="270"><![CDATA[01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="210" y="170"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="290" y="320"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="370" y="70"><![CDATA[01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="450" y="220"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="530" y="290"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="610" y="190"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="690" y="310"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="770" y="140"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="850" y="260"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="930" y="340"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="1010" y="210"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="1090" y="100"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      
+      <!-- Falling animation for green columns -->
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,580; 0,0" dur="22s" repeatCount="indefinite" calcMode="linear"/>
+    </g>
+    
+    <!-- Matrix columns - Cyan -->
+    <g font-family="Source Code Pro, Consolas, monospace" font-size="11" fill="url(#rain-gradient)" opacity="0.7">
+      <text x="90" y="70"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="230" y="200"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="370" y="0"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="510" y="140"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="650" y="300"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="790" y="50"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="930" y="220"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="1070" y="80"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,580; 0,0" dur="19s" repeatCount="indefinite" calcMode="linear" begin="3s"/>
+    </g>
+    
+    <!-- Matrix columns - Magenta -->
+    <g font-family="Source Code Pro, Consolas, monospace" font-size="10" fill="url(#rain-gradient)" opacity="0.55">
+      <text x="40" y="50"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="180" y="250"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="320" y="40"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="460" y="170"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="600" y="290"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      <text x="740" y="120"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="880" y="330"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="1020" y="30"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
+      
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,580; 0,0" dur="24s" repeatCount="indefinite" calcMode="linear" begin="5s"/>
+    </g>
+    
+    <!-- Data packets flowing through matrix -->
+    <g fill="#00F7FF" filter="url(#neon-glow)">
+      <circle r="2.5">
+        <animateMotion path="M 100,380 L 300,300 L 550,370 L 800,300 L 1100,380" dur="6s" repeatCount="indefinite" rotate="auto"/>
+        <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2" fill="#D414FE">
+        <animateMotion path="M 150,380 L 400,320 L 650,380 L 900,320 L 1150,380" dur="7s" repeatCount="indefinite" rotate="auto" begin="1.5s"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite" begin="1.5s"/>
+      </circle>
+      <circle r="1.5" fill="#00E77F">
+        <animateMotion path="M 80,380 L 350,340 L 600,380 L 850,340 L 1100,380" dur="8s" repeatCount="indefinite" rotate="auto" begin="3s"/>
+        <animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite" begin="3s"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Matrix rain container border (bottom edge) -->
+  <rect x="0" y="370" width="1200" height="210" fill="none" stroke="#00F7FF" stroke-width="1.5" opacity="0.3" rx="0 0 12 12"/>
+  
+  <!-- Bottom edge glow -->
+  <rect x="0" y="570" width="1200" height="10" fill="url(#rain-gradient)" opacity="0.4"/>
+</svg>

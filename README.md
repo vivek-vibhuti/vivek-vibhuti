@@ -6,55 +6,28 @@
      Inspired by: D3Ext/aesthetic-wallpapers + Nainish-Rai/aesthetic-startpage + Cyberpunk 2077 UI
      ═══════════════════════════════════════════════════════════════════════════════ -->
 
-<!-- ══════════════════════════════════════════════════════════════════════════════
-     HERO SECTION: Banner + Typing Animation OVER Banner + Visitor Badge ON Banner
-     ══════════════════════════════════════════════════════════════════════════════ -->
-<p align="center" style="position:relative; display:inline-block; max-width:1200px; width:100%;">
-  <!-- Base Layer: Lana Silhouette Banner -->
-  <img src="https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/lana_silhouette.png" 
-       alt="Lana Silhouette Banner" 
-       style="width:100%; max-width:1200px; border-radius:12px; border:2px solid #00F7FF; box-shadow: 0 0 40px rgba(0,247,255,0.3), 0 0 80px rgba(212,20,254,0.2); display:block;" />
-  
-  <!-- Layer 2: Typing Animation OVER Banner (pulled up with negative margin) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=32&pause=1500&color=00F7FF&center=true&width=900&lines=I'M+VIVEK+VIBHUTI;PRINCIPAL+AI+ENGINEER;ML+ARCHITECT+%7C+AGENTIC+SYSTEMS;PRODUCTION+AI+AT+SCALE" 
-       alt="Typing Animation Over Banner" 
-       style="position:absolute; top:18%; left:50%; transform:translateX(-50%); width:auto; max-width:90%; filter: drop-shadow(0 0 20px #00F7FF) drop-shadow(0 0 40px #D414FE); pointer-events:none; z-index:10;" />
-  
-  <!-- Layer 3: Visitor Badge ON Banner (top-right corner) -->
-  <a href="https://github.com/vivek-vibhuti" target="_blank" style="position:absolute; top:12px; right:12px; z-index:15;">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true&color=00F7FF&style=for-the-badge" 
-         alt="Visitor Badge" 
-         style="border: 2px solid #00F7FF; border-radius: 12px; box-shadow: 0 0 20px rgba(0,247,255,0.6), inset 0 0 15px rgba(0,247,255,0.2); background:rgba(13,17,23,0.9);" />
-  </a>
+<!-- ═══════════════════════════════════════════════════════════════════════════════
+     HERO SECTION: Single unified SVG combining banner + typing + visitor badge + matrix rain
+     ═══════════════════════════════════════════════════════════════════════════════ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/assets/hero.svg" 
+       alt="Hero Section: Banner + Typing + Visitor Badge + Matrix Rain" 
+       style="width:100%; max-width:1200px; display:block;" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
-     MATRIX RAIN — Connected EDGE-TO-EDGE below Banner (no gap)
-     ══════════════════════════════════════════════════════════════════════════════ -->
-<p align="center" style="margin-top:-4px;">
-  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/assets/matrix-rain.svg" 
-       alt="Matrix Rain Connected to Banner" 
-       style="width:100%; max-width:1200px; border-radius:0 0 12px 12px; border:2px solid #00F7FF; border-top:none; box-shadow: inset 0 0 60px rgba(0,247,255,0.1); opacity:0.15; display:block;" />
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════
-     SUBTITLE ANIMATION — Tech stack cycling (moved up)
-     ══════════════════════════════════════════════════════════════════════════════ -->
+     SUBTITLE ANIMATION — Tech stack cycling
+     ═══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center" style="margin-top:16px;">
   <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=16&pause=1200&color=00F7FF&center=true&width=850&lines=LangGraph+%7C+LangChain+%7C+CrewAI+%7C+AutoGen+%7C+MCP+Protocol;FastAPI+%7C+Docker+%7C+Kubernetes+%7C+Vector+DBs+%7C+RAG+Pipelines;Python+%7C+Java+%7C+React+%7C+Spring+Boot+%7C+Next.js+%7C+TypeScript;PyTorch+%7C+TensorFlow+%7C+JAX+%7C+vLLM+%7C+TGI+%7C+Ollama;MLflow+%7C+Kubeflow+%7C+ZenML+%7C+Ray+%7C+Airflow+%7C+Spark" 
        alt="Tech Stack Animation" 
        style="filter: drop-shadow(0 0 8px #00F7FF);" />
 </p>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════
-     NEON BADGE ROW — Glassmorphism with mesh-purple palette
-     ══════════════════════════════════════════════════════════════════════════════ -->
-<p align="center" style="margin-top:12px;">
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════
+<!-- ════════════════════════════════════════════════════════════════════════════════
      NEON BADGE ROW — Glassmorphism with mesh-purple palette
      ═══════════════════════════════════════════════════════════════════════════════ -->
-<p align="center">
+<p align="center" style="margin-top:12px;">
   <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/GitHub-vivek--vibhuti-00F7FF?style=for-the-badge&logo=github&logoColor=00F7FF&labelColor=0d1117&color=161b22" alt="GitHub" style="filter: drop-shadow(0 0 8px #00F7FF);" /></a>
   <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/LinkedIn-vivek--vibhuti--ai--data-D414FE?style=for-the-badge&logo=linkedin&logoColor=D414FE&labelColor=0d1117&color=161b22" alt="LinkedIn" style="filter: drop-shadow(0 0 8px #D414FE);" /></a>
   <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/Email-vivekvibhutiofficial-FB0094?style=for-the-badge&logo=gmail&logoColor=FB0094&labelColor=0d1117&color=161b22" alt="Email" style="filter: drop-shadow(0 0 8px #FB0094);" /></a>
