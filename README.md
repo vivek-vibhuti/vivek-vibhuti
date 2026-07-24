@@ -3,19 +3,25 @@
      SCI-FI / MESH-PURPLE / NEON-CYBERPUNK THEME
      Radial Gradient Meshes • Matrix Rain • Glitch Text • Holographic Cards
      Neural Network Animation • Particle Fields • Scanline CRT • Orbital Rings
+     Banner: D3Ext/aesthetic-wallpapers (lana_silhouette)
      Inspired by: Nainish-Rai/aesthetic-startpage (mesh-purple) + Cyberpunk 2077 UI
      ═══════════════════════════════════════════════════════════════════════════════ -->
 
+<!-- BANNER — Lana Silhouette from aesthetic-wallpapers -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/lana_silhouette.png" alt="Lana Silhouette Banner" style="width:100%; max-width:1200px; border-radius:12px; box-shadow: 0 0 40px rgba(0,247,255,0.3), 0 0 80px rgba(212,20,254,0.2); border: 2px solid #00F7FF;" />
+</p>
+
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      NEON GRID BACKGROUND PATTERN (CSS-in-SVG for GitHub README)
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/assets/neon-grid.svg" alt="Neon Grid Background" style="width:100%; max-width:1000px; opacity:0.15; pointer-events:none; position:absolute; top:0; left:0; z-index:-1;" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      GLITCH ANIMATED HEADER — "VIVEK VIBHUTI" with scanline CRT effect
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=36&pause=1500&color=00F7FF&center=true&width=900&lines=VIVEK+VIBHUTI;PRINCIPAL+AI+ENGINEER;ML+ARCHITECT+%7C+AGENTIC+SYSTEMS;PRODUCTION+AI+AT+SCALE" alt="Glitch Typing Header" style="filter: drop-shadow(0 0 20px #00F7FF) drop-shadow(0 0 40px #D414FE);" />
 </p>
@@ -26,22 +32,15 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
-     ORBITING PARTICLE RING + VISITOR BADGE (top-right)
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     VISITOR BADGE with PULSE RING ANIMATION (via animated SVG wrapper)
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true&color=00F7FF&style=for-the-badge" alt="Visitor Badge" style="border: 2px solid #00F7FF; border-radius: 16px; box-shadow: 0 0 30px rgba(0,247,255,0.5), inset 0 0 20px rgba(0,247,255,0.1); animation: pulse-ring 3s ease-in-out infinite;" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true&color=00F7FF&style=for-the-badge" alt="Visitor Badge" style="border: 2px solid #00F7FF; border-radius: 16px; box-shadow: 0 0 30px rgba(0,247,255,0.5), inset 0 0 20px rgba(0,247,255,0.1);" />
 </p>
-
-<style>
-@keyframes pulse-ring {
-  0%, 100% { box-shadow: 0 0 30px rgba(0,247,255,0.5), inset 0 0 20px rgba(0,247,255,0.1); }
-  50% { box-shadow: 0 0 50px rgba(212,20,254,0.6), inset 0 0 30px rgba(212,20,254,0.2); }
-}
-</style>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      MATRIX RAIN ANIMATION (subtle background)
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/assets/matrix-rain.svg" alt="Matrix Rain" style="width:100%; max-width:1000px; opacity:0.06; pointer-events:none; position:relative; top:-40px;" />
 </p>
@@ -59,27 +58,20 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
-     STATUS BADGES — Animated pulse on hover
+     STATUS BADGES — Animated pulse via inline SVG animation wrapper
      ═══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://img.shields.io/badge/Location-Bhubaneswar%2C%20India-00E77F?style=flat-square&labelColor=0d1117&color=161b22" alt="Location" />
-  <img src="https://img.shields.io/badge/Open%20to-Staff%2FPrincipal%20Roles-00F7FF?style=flat-square&labelColor=0d1117&color=161b22" alt="Open to Work" style="animation: status-pulse 2s ease-in-out infinite;" />
+  <img src="https://img.shields.io/badge/Open%20to-Staff%2FPrincipal%20Roles-00F7FF?style=flat-square&labelColor=0d1117&color=161b22" alt="Open to Work" style="filter: drop-shadow(0 0 4px #00F7FF);" />
   <img src="https://img.shields.io/badge/Focus-AI%20Platforms%2C%20LLM%20Infra%2C%20Agentic%20Systems-D414FE?style=flat-square&labelColor=0d1117&color=161b22" alt="Focus" />
   <img src="https://img.shields.io/badge/B.Tech%20CSE-ITER%20SOA%20University-00FFB7?style=flat-square&labelColor=0d1117&color=161b22" alt="Education" />
   <img src="https://img.shields.io/badge/CGPA-7.6-FB0094?style=flat-square&labelColor=0d1117&color=161b22" alt="CGPA" />
   <img src="https://img.shields.io/badge/2023%E2%80%932027-Batch-FF6B35?style=flat-square&labelColor=0d1117&color=161b22" alt="Batch" />
 </p>
 
-<style>
-@keyframes status-pulse {
-  0%, 100% { filter: drop-shadow(0 0 4px #00F7FF); }
-  50% { filter: drop-shadow(0 0 12px #D414FE) drop-shadow(0 0 20px #00F7FF); }
-}
-</style>
-
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      SUBTITLE ANIMATION — Tech stack cycling
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=16&pause=1200&color=00F7FF&center=true&width=850&lines=LangGraph+%7C+LangChain+%7C+CrewAI+%7C+AutoGen+%7C+MCP+Protocol;FastAPI+%7C+Docker+%7C+Kubernetes+%7C+Vector+DBs+%7C+RAG+Pipelines;Python+%7C+Java+%7C+React+%7C+Spring+Boot+%7C+Next.js+%7C+TypeScript;PyTorch+%7C+TensorFlow+%7C+JAX+%7C+vLLM+%7C+TGI+%7C+Ollama;MLflow+%7C+Kubeflow+%7C+ZenML+%7C+Ray+%7C+Airflow+%7C+Spark" alt="Tech Stack Animation" />
 </p>
@@ -88,7 +80,7 @@
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      NEURAL NETWORK ANIMATION DIVIDER
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/assets/neural-network.svg" alt="Neural Network Divider" style="width:100%; max-width:800px; height:auto;" />
 </p>
@@ -128,7 +120,7 @@ flowchart LR
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
-     HOLOGRAPHIC PROJECT CARDS — Animated border glow on "hover" (via SVG filter)
+     HOLOGRAPHIC PROJECT CARDS — Animated border glow via SVG
      ═══════════════════════════════════════════════════════════════════════════════ -->
 ### 🚀 **SELECTED DELIVERIES** — *Production Systems at Scale*
 
@@ -248,7 +240,7 @@ flowchart LR
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════
      TECHNICAL ARSENAL — Animated Skill Rings + Holographic Categories
-     ═══════════════════════════════════════════════════════════════════════════════ -->
+     ══════════════════════════════════════════════════════════════════════════════ -->
 ### 🛠️ **TECHNICAL ARSENAL** — *Neural-Synapse Categories*
 
 <!-- Category 1: AI/ML Engineering -->
@@ -440,15 +432,8 @@ flowchart LR
 ### 🐍 **CONTRIBUTION SNAKE** — *Digital Organism Feeding on Commits*
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/dist/github-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:16px; background:#0d1117; border:2px solid #D414FE; box-shadow: 0 0 40px rgba(212,20,254,0.4), inset 0 0 60px rgba(212,20,254,0.1); animation: snake-breathe 4s ease-in-out infinite;" />
+  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/dist/github-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:16px; background:#0d1117; border:2px solid #D414FE; box-shadow: 0 0 40px rgba(212,20,254,0.4), inset 0 0 60px rgba(212,20,254,0.1);" />
 </p>
-
-<style>
-@keyframes snake-breathe {
-  0%, 100% { box-shadow: 0 0 40px rgba(212,20,254,0.4), inset 0 0 60px rgba(212,20,254,0.1); border-color: #D414FE; }
-  50% { box-shadow: 0 0 60px rgba(0,247,255,0.5), inset 0 0 80px rgba(0,247,255,0.15); border-color: #00F7FF; }
-}
-</style>
 
 ---
 
@@ -558,18 +543,11 @@ flowchart LR
 ### 🤝 **LET'S BUILD SOMETHING THAT MATTERS**
 
 <p align="center">
-  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/📧_Email-FB0094?style=for-the-badge&logo=gmail&logoColor=FB0094&labelColor=0d1117&color=161b22" alt="Email" style="animation: contact-pulse 2s ease-in-out infinite;" /></a>
-  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/💻_GitHub-00F7FF?style=for-the-badge&logo=github&logoColor=00F7FF&labelColor=0d1117&color=161b22" alt="GitHub" style="animation: contact-pulse 2s ease-in-out infinite 0.3s;" /></a>
-  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/💼_LinkedIn-D414FE?style=for-the-badge&logo=linkedin&logoColor=D414FE&labelColor=0d1117&color=161b22" alt="LinkedIn" style="animation: contact-pulse 2s ease-in-out infinite 0.6s;" /></a>
-  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/🌐_Portfolio-00FFB7?style=for-the-badge&logo=vercel&logoColor=00FFB7&labelColor=0d1117&color=161b22" alt="Portfolio" style="animation: contact-pulse 2s ease-in-out infinite 0.9s;" /></a>
+  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/📧_Email-FB0094?style=for-the-badge&logo=gmail&logoColor=FB0094&labelColor=0d1117&color=161b22" alt="Email" style="filter: drop-shadow(0 0 6px #FB0094);" /></a>
+  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/💻_GitHub-00F7FF?style=for-the-badge&logo=github&logoColor=00F7FF&labelColor=0d1117&color=161b22" alt="GitHub" style="filter: drop-shadow(0 0 6px #00F7FF);" /></a>
+  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/💼_LinkedIn-D414FE?style=for-the-badge&logo=linkedin&logoColor=D414FE&labelColor=0d1117&color=161b22" alt="LinkedIn" style="filter: drop-shadow(0 0 6px #D414FE);" /></a>
+  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/🌐_Portfolio-00FFB7?style=for-the-badge&logo=vercel&logoColor=00FFB7&labelColor=0d1117&color=161b22" alt="Portfolio" style="filter: drop-shadow(0 0 6px #00FFB7);" /></a>
 </p>
-
-<style>
-@keyframes contact-pulse {
-  0%, 100% { filter: drop-shadow(0 0 6px currentColor); transform: scale(1); }
-  50% { filter: drop-shadow(0 0 20px currentColor) drop-shadow(0 0 30px currentColor); transform: scale(1.02); }
-}
-</style>
 
 <p align="center">
   <b>🎯 Currently seeking:</b> Staff/Principal AI Engineer • AI Platform Lead • ML Architect • Research Collaboration<br>
