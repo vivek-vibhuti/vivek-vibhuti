@@ -1,29 +1,30 @@
 <!-- ═══════════════════════════════════════════════════════════════════
      VIVEK VIBHUTI — PRINCIPAL AI ENGINEER
-     Advanced Minimalist Aesthetic | GitHub Profile
+     Master-Level Aesthetic | Dark Minimal | Cyan Accent | Glassmorphism
+     Inspired by: aesthetic-startpage design language
      ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&pause=1500&color=00D4FF&center=true&width=800&lines=Vivek+Vibhuti;Principal+AI+Engineer+%7C+ML+Architect;Architecting+Production+AI+Systems+at+Scale;LLM+%7C+RAG+%7C+Agents+%7C+MLOps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=26&pause=2000&color=00D4FF&center=true&width=800&lines=Vivek+Vibhuti;Principal+AI+Engineer+%7C+ML+Architect;Architecting+Production+AI+Systems+at+Scale;LLM+%7C+RAG+%7C+Agents+%7C+MLOps" alt="Typing SVG" />
 </p>
 
 <p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true&color=00D4FF" alt="Visitor Badge" style="border: 2px solid #00D4FF; border-radius: 12px;" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&format=true&color=00D4FF" alt="Visitor Badge" style="border: 2px solid #00D4FF; border-radius: 12px; box-shadow: 0 0 20px rgba(0,212,255,0.3);" />
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/GitHub-vivek--vibhuti-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/LinkedIn-vivek--vibhuti--ai--data-0077B5?style=for-the-badge&logo=linkedin" /></a>
-  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/Email-vivekvibhutiofficial@gmail.com-D14836?style=for-the-badge&logo=gmail" /></a>
-  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/Portfolio-soulstack.in-8A2BE2?style=for-the-badge&logo=vercel" /></a>
+  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/GitHub-vivek--vibhuti-181717?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/LinkedIn-vivek--vibhuti--ai--data-0077B5?style=for-the-badge&logo=linkedin&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/Email-vivekvibhutiofficial-D14836?style=for-the-badge&logo=gmail&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/Portfolio-soulstack.in-8A2BE2?style=for-the-badge&logo=vercel&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Bhubaneswar%2C%20India-00D4FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Open%20to-Staff%2FPrincipal%20Roles-00FF88?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-AI%20Platforms%2C%20LLM%20Infra%2C%20Agentic%20Systems-8A2BE2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Location-Bhubaneswar%2C%20India-00D4FF?style=flat-square&labelColor=0d1117&color=161b22" />
+  <img src="https://img.shields.io/badge/Open%20to-Staff%2FPrincipal%20Roles-00FF88?style=flat-square&labelColor=0d1117&color=161b22" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Platforms%2C%20LLM%20Infra%2C%20Agentic%20Systems-8A2BE2?style=flat-square&labelColor=0d1117&color=161b22" />
 </p>
 
 ---
@@ -84,16 +85,16 @@ flowchart LR
 ### 📊 **GitHub Signal**
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vivek-vibhuti&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek-vibhuti&layout=compact&theme=tokyonight&hide_border=true&langs_count=12" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vivek-vibhuti&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00D4FF&icon_color=00FF88&text_color=c9d1d9&border_color=30363d" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek-vibhuti&layout=compact&theme=tokyonight&hide_border=true&langs_count=12&bg_color=0d1117&title_color=00D4FF&text_color=c9d1d9&border_color=30363d" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vivek-vibhuti&theme=tokyonight&hide_border=true&fire=FF6B35&currStreakLabel=00D4FF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=vivek-vibhuti&theme=tokyonight&hide_border=true&fire=FF6B35&currStreakLabel=00D4FF&sideNums=FFF&sideLabels=00D4FF&background=0d1117&border=30363d" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/dist/github-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:12px; background:#0d1117; border:1px solid #30363d;" />
+  <img src="https://raw.githubusercontent.com/vivek-vibhuti/vivek-vibhuti/main/dist/github-snake.svg" alt="Snake Animation" style="max-width:100%; border-radius:12px; background:#0d1117; border:1px solid #30363d; box-shadow: 0 0 30px rgba(0,212,255,0.1);" />
 </p>
 
 ---
@@ -114,10 +115,10 @@ flowchart LR
 ### 🤝 **Let's Build Something That Matters**
 
 <p align="center">
-  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:vivekvibhutiofficial@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="https://github.com/vivek-vibhuti"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="https://linkedin.com/in/vivek-vibhuti-ai-data"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
+  <a href="https://soulstack.in"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=vercel&logoColor=00D4FF&labelColor=0d1117&color=161b22" /></a>
 </p>
 
 <p align="center">
@@ -125,7 +126,7 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,40,60,80,100&height=100&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,40,60,80,100&height=100&section=footer&animation=twinkling&fontColor=00D4FF&desc=Built%20with%20%E2%9D%A4%20%7C%20Powered%20by%20GitHub%20Actions%20%7C%20Auto-updated%20daily&descAlignY=55&descAlign=50" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════
