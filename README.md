@@ -1,5 +1,3 @@
----
-
 <!-- =====================================================================
  *  VIVEK VIBHUTI — AI ENGINEER PROFILE
  *  Advanced Aesthetic GitHub README
