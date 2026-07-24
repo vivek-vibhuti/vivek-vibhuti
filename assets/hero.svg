@@ -83,12 +83,6 @@
       <stop offset="60%" stop-color="#D414FE" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#00E77F" stop-opacity="0.4"/>
     </linearGradient>
-    
-    <!-- Visitor badge animation -->
-    <animate id="badge-pulse" attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-    
-    <!-- Typing cursor blink -->
-    <animate id="cursor-blink" attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" repeatCount="indefinite"/>
   </defs>
   
   <!-- Main background -->
@@ -276,14 +270,8 @@
     <rect x="2" y="2" width="116" height="32" rx="6" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" filter="url(#strong-glow)" opacity="0.7">
       <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
     </rect>
-    <!-- Visitor text -->
-    <text x="60" y="24" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="11" font-weight="bold" fill="#00F7FF">
-      VISITORS
-    </text>
-    <text x="60" y="38" text-anchor="middle" font-family="Source Code Pro, monospace" font-size="14" font-weight="bold" fill="#00F7FF">
-      <tspan>1,234</tspan>
-      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
-    </text>
+    <!-- Embedded visitor badge from laobi.icu -->
+    <image x="6" y="4" width="108" height="28" xlink:href="https://visitor-badge.laobi.icu/badge?page_id=vivek-vibhuti.vivek-vibhuti&amp;format=true&amp;color=00F7FF&amp;style=for-the-badge"/>
   </g>
   
   <!-- ============================================================
@@ -321,16 +309,16 @@
     <g font-family="Source Code Pro, Consolas, monospace" font-size="13" fill="url(#rain-gradient)">
       <text x="50" y="370"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="130" y="270"><![CDATA[01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="210" y="170"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="210" y="170"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="290" y="320"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
-      <text x="370" y="70"><![CDATA[01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="450" y="220"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="370" y="70"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
+      <text x="450" y="220"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="530" y="290"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="610" y="190"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="690" y="310"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="690" y="310"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="770" y="140"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="850" y="260"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="930" y="340"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="930" y="340"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="1010" y="210"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="1090" y="100"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
       
@@ -339,13 +327,13 @@
     </g>
     
     <!-- Matrix columns - Cyan -->
-    <g font-family="Source Code Pro, Consolas, monospace" font-size="11" fill="url(#rain-gradient)" opacity="0.7">
+    <g font-family="Source Code Pro, Consolas, monospace" font-size="13" fill="url(#rain-gradient)" opacity="0.7">
       <text x="90" y="70"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="230" y="200"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="370" y="0"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="370" y="0"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="510" y="140"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="650" y="300"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
-      <text x="790" y="50"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="790" y="50"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="930" y="220"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       <text x="1070" y="80"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
       
@@ -356,10 +344,10 @@
     <g font-family="Source Code Pro, Consolas, monospace" font-size="10" fill="url(#rain-gradient)" opacity="0.55">
       <text x="40" y="50"><![CDATA[010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
       <text x="180" y="250"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
-      <text x="320" y="40"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="320" y="40"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="460" y="170"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
       <text x="600" y="290"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
-      <text x="740" y="120"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;':",./<>?]]></text>
+      <text x="740" y="120"><![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*()_+-=[]{}|;':",./<>?]]></text>
       <text x="880" y="330"><![CDATA[0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101]]></text>
       <text x="1020" y="30"><![CDATA[アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン]]></text>
       
